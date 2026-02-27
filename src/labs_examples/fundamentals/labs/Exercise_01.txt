@@ -21,5 +21,18 @@ Fundamentals Exercise 1: CLI
 Example Output:
     1. cd ~/Documents/CodingNomads/
     2. mkdir Terminal_testing
-    3. //...
-
+    3. a. cd Terminal_testing
+           vim file1.txt.
+           vim file2.txt.
+           vim file3.txt
+       b. pwd
+       c. ls -al
+    5. cd Terminal_testing
+       mkdir new_folder
+    6.cp /c/Users/rp246/Documents/CodingNomads/Terminal_testing/file1.txt /c/Users/rp246/Documents/CodingNomads/Terminal_testing/new_folder/
+    7.mv /c/Users/rp246/Documents/CodingNomads/Terminal_testing/file2.txt /c/Users/rp246/Documents/CodingNomads/Terminal_testing/new_folder/
+    8. a rm file3.txt
+       b rm -r new_folder
+    9. a. vim file1.txt
+       b. cat file1.txt
+       c. grep some file1.txt

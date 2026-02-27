@@ -32,3 +32,65 @@ Cloning repository from Github
     3. Create new repository on Github
     4. Add new remote on local machine
     5. Push to new Github repository
+
+Example output
+1. In CodingNomads folder, create new folder git_practice
+   mkdir git_practice
+2. Inside git_practice:
+        a. Initialize folder as a git folder (make sure you are in the correct folder when initializing) by running
+            the "git init" command within the git_practice folder.
+            git init
+
+        b. Make new file
+           touch file1.txt
+
+        c. Add file
+           git add file1.txt
+
+        d. Commit file
+           git commit -m "added file file1.txt"
+
+        c. On Github, create new git_practice repository
+
+        d. Add this new GitHub repository as a new "remote" to your local Git repo. You can do this by using the command
+            git remote add <ANY_NAME> <URL_OF_NEW_GITHUB_REPO.git>
+            git remote add origin https://github.com/rp246c6/git_practice.git
+
+        d. Push commit file to Github
+           git push -u origin master
+
+        e. Practice the following git flow until you feel comfortable:
+            i.   Create or modify file
+            ii.  Add file(s)
+            iii. Commit file(s)
+            iv.  Push file(s) to Github repository
+
+Adding a remote
+    1. Create new personal repository on Github named "git_practice_2".
+       https://github.com/rp246c6/git_practice_2
+
+    2. On local machine, add the new remote address to the same git repo you were working with in the previous section above
+        (directions are provided on Github with new repo is created)
+        git remote add origin https://github.com/rp246c6/git_practice_2.git
+        git remote set-url origin https://github.com/rp246c6/git_practice_2.git
+
+    3. Push local git repository to your Github using the new remote.
+       git push origin master
+
+
+
+Cloning repository from Github
+    1. Find a repository on Github
+      https://github.com/rp246c6/git_practice
+
+    2. Clone repository to local machine
+       git clone https://github.com/rp246c6/git_practice
+
+    3. Create new repository on Github
+       https://github.com/rp246c6/git_practice_2
+
+    4. Add new remote on local machine
+       git remote add origin https://github.com/rp246c6/git_practice_2.git
+
+    5. Push to new Github repository
+       git push origin master
