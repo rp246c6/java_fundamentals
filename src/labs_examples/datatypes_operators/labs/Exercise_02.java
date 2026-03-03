@@ -25,5 +25,26 @@ public class Exercise_02 {
 
         // write code here
 
+        //Widening:
+       //1. Declare and initialize an int with the value 10
+        int i = 10;
+
+        // 2. Declare a double and set it equal to the int
+        double d = i;
+
+        //3. Print out the double
+        System.out.println("double d is "+ d);
+
+        //Narrowing (with casting):
+       //1. Declare and initialize a new double with the value 10.5
+        double o = 10.5;
+
+       //2. Declare a new int and set it equal to the double (make sure to cast the double to an int)
+       int n = (int)o;
+
+        //3. Print out the int
+        System.out.println("int n is "+ n);
+
+        //In narrowing information is lost
     }
 }

@@ -18,6 +18,20 @@ public class Exercise_01 {
 
         // write code here
 
+       // Declare an int, a double, a float and a char
+           int i;
+           double d;
+           char c;
+
+       //Assign appropriate values to each
+        i = 10;
+        d = 5;
+        c ='y';
+
+        //Print out each variable to the console
+        System.out.println("int i is "+ i);
+        System.out.println("double d is "+ d);
+        System.out.println("char c  is "+ c);
     }
 }
 

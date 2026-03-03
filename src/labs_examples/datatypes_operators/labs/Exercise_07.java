@@ -24,6 +24,16 @@ public class Exercise_07 {
         int days = scanner.nextInt();
 
         // write completed code here
+        // Validate input
+        if (days < 1 || days > 1_000_000) {
+            System.out.println("Invalid input! Please enter a number between 1 and 1,000,000.");
+        } else {
+            long seconds = days * 24 * 60 * 60; // days → hours → minutes → seconds
+            System.out.println(days + " day(s) = " + seconds + " seconds");
+        }
+
+        scanner.close();
+
 
     }
 }
