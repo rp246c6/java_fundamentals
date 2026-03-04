@@ -28,8 +28,19 @@ public class Exercise_11 {
         for(int i = 1; i <= 10; i++ ) {
             for(int j = 1; j <= 10; j++) {
                 int product = i * j;
-                String cell =  "    " + product + "|";
-                System.out.print(cell.substring(cell.length()-5));
+
+                // Print number followed by pipe, with spacing for alignment
+                String cell = "";
+
+                if (product < 10) {
+                    cell  = product + "  |" ;
+                } else if (product < 100){
+                    cell = product + " |" ;
+                } else {
+                    cell = product + "|";
+                }
+
+                System.out.print(cell);
 
             }
                 System.out.println();
